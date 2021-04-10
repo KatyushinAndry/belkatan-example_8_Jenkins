@@ -55,7 +55,7 @@ public class RegistrationFormPage {
         $(".table-responsive").$(byText("Hobbies")).parent().shouldHave(text(hobby));
         $(".table-responsive").$(byText("Picture")).parent().shouldHave(text(photoName));
         $(".table-responsive").$(byText("Address")).parent().shouldHave(text(address));
-        $(".table-responsive").$(byText("State and City333")).parent().shouldHave(text(state + " " + city));
+        $(".table-responsive").$(byText("State and City")).parent().shouldHave(text(state + " " + city));
     }
 
 
